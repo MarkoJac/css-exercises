@@ -13,6 +13,11 @@ img {
   width: 600px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -35,3 +40,20 @@ input {
   text-align: center;
 }
 
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px;
+}
+
+.footer {
+  background: #eeeeee;
+}
